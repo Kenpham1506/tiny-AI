@@ -9,7 +9,7 @@ const engine = new webllm.MLCEngine();
 // Load a fast, small model
 output.textContent = "Downloading model (first time only)...";
 
-await engine.reload("qwen2.5-0.5b-instruct");
+await engine.reload("TinyLlama-1.1B-Chat-v1.0");
 
 output.textContent = "Ready.";
 
