@@ -6,9 +6,9 @@ const sendBtn = document.getElementById("send");
 
 const engine = new webllm.MLCEngine();
 
-// Load a fast, small model
 output.textContent = "Downloading model (first time only)...";
 
+// ✅ WORKS in current web-llm CDN
 await engine.reload("phi-2-q4f16_1");
 
 output.textContent = "Ready.";
