@@ -21,7 +21,7 @@ sendBtn.onclick = async () => {
 
   const res = await engine.chat.completions.create({
     messages: [{ role: "user", content: prompt }],
-    max_tokens: 12048,
+    max_tokens: 92048,
     temperature: 0.7,
   });
 
