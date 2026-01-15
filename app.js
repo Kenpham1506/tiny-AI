@@ -9,7 +9,7 @@ const engine = new webllm.MLCEngine();
 output.textContent = "Downloading model (first time only)...";
 
 // ✅ EXACT model ID from your list
-await engine.reload("TinyLlama-1.1B-Chat-v1.0-q4f16_1-MLC");
+await engine.reload("Llama-3.2-3B-Instruct-q4f16_1-MLC");
 
 output.textContent = "Ready.";
 
